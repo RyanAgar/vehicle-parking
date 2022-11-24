@@ -13,9 +13,9 @@
 		$vehreno=$_POST['vehreno'];
 		$ownername=$_POST['ownername'];
 		$ownercontno=$_POST['ownercontno'];
-
+		$enteringtime=$_POST['enteringtime'];
 			
-		$query=mysqli_query($con, "INSERT into vehicle_info(ParkingNumber,VehicleCategory,VehicleCompanyname,RegistrationNumber,OwnerName,OwnerContactNumber) value('$parkingnumber','$catename','$vehcomp','$vehreno','$ownername','$ownercontno')");
+		$query=mysqli_query($con, "INSERT into vehicle_info(ParkingNumber,VehicleCategory,VehicleCompanyname,RegistrationNumber,OwnerName,OwnerContactNumber,InTime) value('$parkingnumber','$catename','$vehcomp','$vehreno','$ownername','$ownercontno','$enteringtime')");
 		if ($query) {
 			echo "<script>alert('Vehicle Entry Detail has been added');</script>";
 			echo "<script>window.location.href ='dashboard.php'</script>";
