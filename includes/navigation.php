@@ -5,7 +5,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span></button>
-				<a class="navbar-brand" href="./dashboard.php"><span>Vechicle </span>Parking System</a>
+				<a class="navbar-brand" href="./dashboard.php"><span>Vehicle </span>Parking System</a>
 				<ul class="nav navbar-top-links navbar-right">
 					
 						
